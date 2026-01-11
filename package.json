@@ -1,0 +1,29 @@
+{
+  "name": "gerador-video-simples",
+  "version": "0.1.0",
+  "description": "Um aplicativo de vídeo simples usando a API Gemini e Capacitor para Android.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "capacitor:add:android": "npx capacitor add android",
+    "capacitor:sync": "npm run build && npx capacitor sync android",
+    "capacitor:open:android": "npx capacitor open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@google/genai": "^1.35.0",
+    "react": "19.0.0-rc-827d532a24-20240606",
+    "react-dom": "19.0.0-rc-827d532a24-20240606"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}

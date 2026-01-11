@@ -1,0 +1,5 @@
+{
+  "name": "Gerador de Vídeo Simples",
+  "description": "Um aplicativo web simples para gerar vídeos a partir de prompts de texto usando a API Gemini.",
+  "requestFramePermissions": []
+}
