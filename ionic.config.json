@@ -1,0 +1,8 @@
+{
+  "name": "GeradorDeVideo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "webDir": "dist"
+}
